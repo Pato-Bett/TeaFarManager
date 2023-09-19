@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6A923A"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="69dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/tea_logo" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/etId_no"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"
+        android:hint="Id number" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Add User" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:id="@+id/editTextText2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="85dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:text="Already have an account?" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/to_login"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Login" />-->
+
+    </LinearLayout>
+
+</LinearLayout>
